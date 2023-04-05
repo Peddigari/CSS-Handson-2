@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Container{
+    border: 10px groove green;
+    padding: 10px;
+    background-image: url(./img2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.upperContainer{
+    width: 100%;
+    display: flex;
+    
+
+}
+.Myh2{
+    padding: 5px;
+    
+
+}
+.myForm{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.myInput{
+    width: 130px;
+}
+.menubox{
+    background-color: black;
+    border-radius: 30px;
+    border: 5px solid red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    margin: 10px 5px;
+    width: 40%;
+    height: 50px;
+
+
+}
+.box{
+    background-color: black;
+    border-radius: 30px;
+    border: 5px solid red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    margin: 5px 10px;
+
+}
+.combinedBox{
+    width: 100%;
+    display: flex;
+
+}
+.leftBox{
+    width: 200px;
+    height: 90px;
+    background-color: black;
+    border: 5px solid red;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.midBox{
+    width: 300px;
+    height: 40px;
+    margin-left: -100px;
+    background-color: black;
+    border: 5px solid red;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    margin-top: 12px;
+
+}
+.rightBox{
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.midContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: center;
+}
+.circle{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    border: 8px solid grey;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 18px;
+}
+.circleText{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.formBox{
+    border: 5px dashed crimson;
+    color:indianred;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.lowerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+
+}
+.myClass{
+    color: blueviolet;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.myClass2{
+    color: blueviolet;
+   
+}
+ul li {
+    padding: 0px 30px;
+}
+
+.lowerMenuBox{
+    background-color: skyblue ;
+    border-radius: 20px;
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+    
+
+
+
+}
